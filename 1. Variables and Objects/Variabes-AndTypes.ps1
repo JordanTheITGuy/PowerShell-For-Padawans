@@ -6,6 +6,10 @@ $Var = "Hello World"
 
 [string]$var2 = "Hello World"
 
+# Useful variable information instead of just Helo World
+
+Get-ChildItem ENV:
+
 # Prove it, I don't believe you. 
 
 $var.GetType()
