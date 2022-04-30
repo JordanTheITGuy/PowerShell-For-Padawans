@@ -47,3 +47,14 @@ Get-alias foreach
 foreach ($item in $collection) {
     
 }
+
+
+## Use the #region and #endregion tag in your scripts to easily collapse blocks of related code for easier reading 
+#region Name of the Region Here
+    Write-Output "This code will be collapsed with the region"
+
+
+
+
+    Write-Output "And so will this"
+#endregion
